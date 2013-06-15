@@ -1,0 +1,262 @@
+/************************************
+
+Table de matières
+
+0, RESET
+
+
+1. BACKGROUND
+
+2. STYLES TEXE EN GENERAL
+
+3. HEADER 
+	
+	3.1 Menu 1: haut au-desus sans boutons (foire a.q., actualité, etc.)
+
+	3.2 Menu 2: haut, boutons en gris (Accueil, Vehicules, etc.)
+	
+
+4. MENU (LATERAL) ET BOUTONS
+
+	Attention! La mise en page du menu est incluse dans les^propietés des boutons;
+	Menu: lateral (essai routier, Accesoires, etc.)
+	
+5. FOOTER
+	
+	5.1 Fond du footer
+	5.2 Menu 4: pie de page (à propos de Mitsubichi, plan du site, etc.)
+	5.3 Boutons Facebook, Twitter, YouTube
+
+
+6. CONTENU
+	6.1 Titre de la page (Vehicules)
+	6.2 Produits (photos des vehicules)
+	6.3 Texte descriptif des vehicules
+
+
+***************************************/
+
+
+/********************/
+/* 0.RESET MEYER*****/
+/********************/
+
+
+	/*ce code est fait pour ameliorer l'homogéneité d'affichage dans les differents navigateurs*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+	}
+	/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+	}
+ol, ul {
+	list-style: none;
+	}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+	}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+
+
+/**************************************/
+
+/********************/
+/* 1. BACKGROUD******/
+/********************/
+
+/*100304 = NOIR   (couleur en bas du notre fond d'écran)*/
+
+
+
+body{
+	width: 1280px;
+	background-color: #100304;
+	background-image: url("Pictures/Backgroundweb.png");
+	background-repeat: repeat-x;
+	font-size: 20px;
+	font-family: Arial, Verdana, sans-serif;
+	}		
+
+
+/*****************************/
+/* 2. STYLE DU TEXTE GENERALE*/
+/****************************/
+
+	/*2.1 TEXTE EN GENERAL*/
+
+*{	
+	text-decoration: none;
+	color: black;
+	font-family: Arial, Verdana, sans-serif; 
+}
+
+
+/********************/
+/* 3. HEADER*********/
+/********************/
+
+ 
+	
+	/*3.1 Menu 1: haut au-desus sans boutons (foire a.q., actualité, etc.)*/
+	
+
+		/*logo position*/
+#logo img{
+	margin: 15px;
+	margin-left: 25px;
+	float: left;
+	}
+
+		/*positionement horizontal du texte*/
+#toplinkbar li{
+	text-decoration: underline;
+	float: left;
+	margin-left: 25px;
+	margin-top: 40px;
+	margin-right: 23px;
+	margin-bottom: 15px;
+	
+	}	
+
+		/*positionement horizontal de la barre de recherche et son image loupe*/
+#toplinkbar input{
+	margin-top: 40px;
+	text-align: center;
+ 	float: left;
+ 	}
+
+#BouttonSearch img{
+	margin-top: 38px;
+	clear: left;
+	}
+
+
+	/*3.2 Menu 2: haut, boutons en gris (Accueil, Vehicules, etc.)*/
+#topmenu li{
+	float: left;
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-bottom: 15px;
+	margin-top: 5px;
+	
+	}
+
+#menu2 ul {
+	margin-top: 200px;
+}
+#menu2 li {
+	
+	margin: 25px;
+	margin-bottom: 25px;
+}
+	
+
+/***********************************/
+/*4. BOUTONS GRIS ET MENU (LATERAL)*/
+/***********************************/
+
+.btnMenu{
+	background-image: url('Pictures/bouton-gral.png');
+	background-repeat: no-repeat;
+	width: 196px;
+	height: 54px;
+	text-align: center;
+	}
+
+.btnMenu:active {
+	background-image: url('Pictures/bouton-gral2.png');
+	}
+
+.btnMenu a{
+	font-size: 20px;
+	padding-right: 10px;
+	padding-left: 10px;
+	line-height: 50px;
+	}
+
+
+
+	/*5. FOOTER
+	
+	5.1 Fond du footer
+	5.2 Menu 4: pie de page (à propos de Mitsubichi, plan du site, etc.)
+	5.3 Boutons Facebook, Twitter, YouTube*/
+
+	/*Mettre le texte du footer dans la zone noir*/
+
+
+	/*Espace entre les lignes du texte du footer*/
+#footer li, #footer a{
+	color: white;
+	line-height: 45px;
+	}
+#gauche ul{
+	float: left;
+	margin-top: 400px;
+	margin-right: 90px;
+	margin-left: 50px;
+}
+
+#centre1 ul{
+	float: left;
+	margin-top: 400px;
+	margin-right: 90px;
+	margin-left: 100px;
+}
+#centre2 ul{
+	float: left;
+	margin-top: 400px;
+	margin-right: 90px;
+	margin-left: 100px;
+}
+
+#suivez {
+	float: left;
+	margin-top: 380px;
+	margin-right: 0px;
+	margin-left: 90px;
+}
+.droite {
+	float:left;
+	margin-top: 5px;
+	margin-left: 60px;
+}
+
+
+ 
+
+

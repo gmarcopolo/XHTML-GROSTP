@@ -1,0 +1,186 @@
+/*Mon Background*/
+body, html {
+	height: 100;
+	margin: 0;
+	padding: 0; 
+}
+body{
+	background-image: url("Pictures/MonBackgroundAccueil.jpg");
+	background-repeat: repeat-x;
+}	
+
+/*text deco/color mod*/
+*{
+	list-style: none;
+	text-decoration: none;
+	color: black;
+	font-size: 22px;
+}
+
+/*Mes top links*/
+#toplinkbar li{
+	text-decoration: underline;
+	float: left;
+	margin-left: 40px;
+	margin-top: 15px;
+	margin-right: 20px;
+}	
+
+#toplinkbar ol{
+	margin-left: 200px;
+}
+
+/*Mes top links*/
+#topmenu li{	
+	float: left;
+	margin-right: 10px;
+}	
+/*mon top menu*/
+#topmenu{
+	padding-left: 300px;
+}
+
+/*Search Bar Position*/
+#Search{
+	position: relative;
+	top: 6px;
+}
+
+/*position du leftmenu*/
+#leftmenu{
+	margin-top: 30px;
+
+}
+
+#leftmenu ul li{
+	margin-top: 15px;
+	
+}
+
+/*positionnement du searchbar*/
+#searchbar{
+	position: relative;
+	top: 5px; 
+}
+
+/*logo position*/
+#logo{
+	float: left;
+	position: relative;
+	left: 48px;
+}
+
+#Collection{
+	position: relative;
+	bottom: 490px;
+	left: 570px;
+}
+
+#Vehicules{
+position: relative;
+bottom: 490px;
+left: 360px;
+}
+
+.clear{
+	clear: both;
+}
+
+.btnMenu{
+	background-image: url('Pictures/bouton-gral.png');
+	background-repeat: no-repeat;
+	width: 196px;
+	height: 54px;
+	text-align: center;
+}
+
+.btnMenu:active {
+	background-image: url('Pictures/bouton-gral2.png');
+}
+
+.btnMenu a{
+	position: relative;
+	top: 16px;
+	left: 2px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 28px;
+	padding-left: 28px;
+}
+
+.Bottomlinks li{	
+	text-decoration: underline;
+	margin-left: 40px;
+	margin-top: 15px;
+	margin-right: 20px;
+}
+
+
+div > p{
+	position: absolute;
+	bottom: 43px;
+	left: 27px;
+	color: white;
+}
+
+#facebook{
+	position: absolute;
+	left: 1200px;
+	top: 925px;
+}
+
+#Copyright{
+	position: absolute;
+	top: 980px;
+	left: 1325px;
+}
+#imagebutton{
+	height: 400px;
+	position: absolute;
+	top: 550px;
+	right: 440px;
+	width: 800px;
+}
+
+/*Mes bouttons images*/
+.Promo{
+float: left;
+}
+
+#Offres{
+}
+#Essai{
+
+}
+#Concess{
+
+}
+#Contruisez{
+
+}
+#Brochure{
+
+}
+#AppStore{
+
+}
+#iMiEV{
+position: absolute;
+margin-left: 50px;
+}
+#Footer{
+	width: 100%;
+	height:150px;
+	position: absolute;
+	left: 0;
+	top: 874px;
+}
+.Bottomlinks{
+	float: left;
+	margin-left:75px;
+	margin-left:75px;
+}
+
+.Bottomlinks a{
+	color: white;
+}
